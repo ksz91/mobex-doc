@@ -1,1 +1,6 @@
-site_name: MobEx-doc
+site_name: MkLorum
+nav:
+    - Home: home.md
+    - Einführung: main_concepts.md
+    - Menu: menu.md
+theme: readthedocs
