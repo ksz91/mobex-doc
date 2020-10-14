@@ -7,9 +7,9 @@ Die Benutzerschnittstelle der Applikation *MobEx.bs* besteht aus einem Navigatio
 Der Navigationsbereich kann über das [x] Element in der oberen rechten Ecke eingeklappt werden, was mehr Platz für den Hauptbereich schafft und insbesondere bei Geräten mit kleinem Bildschirm, wie Tablets oder Mobil-Telefonen, nützlich sein kann.
 
 Die Programmsteuerung erfolgt über die Wahl der Verkehrsart (Motorisierter Individualverkehr, Velos oder Fussgänger) sowie den drei Menu-Optionen:
-* Info: Kurzinfo zum Datensatz
-* Statistik: Tabelle der Zählstellen mit Mittel- und Maximalwert des ausgewählten Parameters und innerhalb des ausgewühlten Zeitintervalls
-* Grafiken: Erstellung von verschiedenen Grafiken (Balkendiagrammen, Zeitreihen, Heatmap oder Karten)
+- Info: Kurzinfo zum Datensatz
+- Statistik: Tabelle der Zählstellen mit Mittel- und Maximalwert des ausgewählten Parameters und innerhalb des ausgewühlten Zeitintervalls
+- Grafiken: Erstellung von verschiedenen Grafiken (Balkendiagrammen, Zeitreihen, Heatmap oder Karten)
 
 Grafiken können als PNG oder SVG Dateien gespeichet werden. Dazu wird mit dem [...] Symbol im oberen rechten Ecken der Grafik ein Untermenu aufgeklappt, welches die entsprechenden Optionen enthält.
 
@@ -29,7 +29,7 @@ Der Navigationsbereich enthält folgende Elemente
     - Zählstelle: Messstelle
     - Richtung: erlaubt es, bei einer ausgewählten Zählstelle mit mehreren Richtungen nur eine Richtung auszuwählen
     - Nach Datum Filtern, von/bis Datum: Beschränkt die Auswahl der Daten auf das definierte Intervall mit Start und Enddatum.
-    - Auswahl Zeit: Erlaubt die Auswahl eines Zeitintervalls, z.B. wenn Statistik über Stosszeiten am Morgen oder am Abend erstellt werden sollen. Damit ein Zeitintervall definiert werden kann muss zuerst das `Nach Datum Filtern` Checkbox ausgewählt werden. Die unten aufgeführten weiteren Filter stehen nur zur Verfügung, wenn kein Datumsintervall gesetzt wurde.
+    - Auswahl Zeit: Erlaubt die Auswahl eines Zeitintervalls, z.B. wenn Statistik über Stosszeiten am Morgen oder am Abend erstellt werden sollen. Damit ein Zeitintervall definiert werden kann muss zuerst die `Nach Datum Filtern` Checkbox ausgewählt werden. Die unten aufgeführten weiteren Filter stehen nur zur Verfügung, wenn kein Datumsintervall gesetzt wurde.
     - Wochentag: Eingrenzen auf alle Messwerte, die an einem definierten Wochentag gemessen wurden
     - Werktage/Wochentage: Eingrenzen auf alle Messwerte, die an einem Wochentag oder am Wochenende gemessen wurden
     - Auswahl Woche: Eingrenzen auf alle Messwerte, die in einer definierten Kalenderwoche (1-53) gemessen wurden
@@ -39,6 +39,8 @@ Der Navigationsbereich enthält folgende Elemente
 
 Ist man an den Werten eines bestimmten Zeitintervalls interessiert, so lohnt es sich, die Filter für das Zeitintervall möglichst früh zu setzen. Während der Verarbeitung eines Befehls erscheint in der oberen rechten Ecke des Browser-Fensters ein animiertes Icon mit einer *Stop* Schaltfläche über welche der Vorgang abgebrochen werden kann, um anschliessend einen Filter zu setzen oder die richtige Zählstelle auszuwählen etc.
 
-
+Im Menu Grafik werden zudem kontextabhängig Grafikoptionen angezeigt:
+- Minimum und Maximum der Achsen: Mit dieser Option kann die automatisch berechneten Start- und Endwerte der Achsen gesteuert werden. Dies erweist sich als nützlich, wenn z.B. wenn über ide Grafik-Gruppierung mehrere Grafiken vom gleichen Typ erzeugt werden, und die Resultate vergleichbar sein sollen. 
+- Achsen Länge: Grafiken weitereverwendet werden sollen, so kann es nützlich sein, die Defaultwerte der Grafikgrösse zu übersteuern.
 
 

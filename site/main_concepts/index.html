@@ -9,7 +9,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Einführung - MkLorum</title>
+  <title>Einführung - MobEx 0.4.0</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -38,7 +38,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-        <a href=".." class="icon icon-home"> MkLorum</a>
+        <a href=".." class="icon icon-home"> MobEx 0.4.0</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -48,7 +48,7 @@
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../home/">Home</a>
+                    <li class="toctree-l1"><a class="reference internal" href="../home/">Übersicht</a>
                     </li>
                 </ul>
                 <ul class="current">
@@ -72,7 +72,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="..">MkLorum</a>
+        <a href="..">MobEx 0.4.0</a>
       </nav>
 
       
@@ -100,9 +100,9 @@
 <p><img alt="" src="../img/main_01.png" /></p>
 <p>Der Navigationsbereich kann über das [x] Element in der oberen rechten Ecke eingeklappt werden, was mehr Platz für den Hauptbereich schafft und insbesondere bei Geräten mit kleinem Bildschirm, wie Tablets oder Mobil-Telefonen, nützlich sein kann.</p>
 <p>Die Programmsteuerung erfolgt über die Wahl der Verkehrsart (Motorisierter Individualverkehr, Velos oder Fussgänger) sowie den drei Menu-Optionen:
-* Info: Kurzinfo zum Datensatz
-* Statistik: Tabelle der Zählstellen mit Mittel- und Maximalwert des ausgewählten Parameters und innerhalb des ausgewühlten Zeitintervalls
-* Grafiken: Erstellung von verschiedenen Grafiken (Balkendiagrammen, Zeitreihen, Heatmap oder Karten)</p>
+- Info: Kurzinfo zum Datensatz
+- Statistik: Tabelle der Zählstellen mit Mittel- und Maximalwert des ausgewählten Parameters und innerhalb des ausgewühlten Zeitintervalls
+- Grafiken: Erstellung von verschiedenen Grafiken (Balkendiagrammen, Zeitreihen, Heatmap oder Karten)</p>
 <p>Grafiken können als PNG oder SVG Dateien gespeichet werden. Dazu wird mit dem [...] Symbol im oberen rechten Ecken der Grafik ein Untermenu aufgeklappt, welches die entsprechenden Optionen enthält.</p>
 <p><img alt="" src="../img/main_02.png" /></p>
 <p>Auch Tabellen haben eine Schaltfläche in der oberen rechten Ecke. Diese erscheint, wenn der Mauszeiger in diesem Bereich bewegt wird. Das Drücken dieser Schaltfläche bewirkt die grossformatige Darstellung der Tabelle auf einer eigenen Seite. Tabellen haben zudem im Fussbereich einen Download-Link, über welchen die Daten im CSV-Format (Komma-separierte Textdatei) heruntergeladen- und lokal weiterverarbeitet werden können.</p>
@@ -118,7 +118,7 @@
     - Zählstelle: Messstelle
     - Richtung: erlaubt es, bei einer ausgewählten Zählstelle mit mehreren Richtungen nur eine Richtung auszuwählen
     - Nach Datum Filtern, von/bis Datum: Beschränkt die Auswahl der Daten auf das definierte Intervall mit Start und Enddatum.
-    - Auswahl Zeit: Erlaubt die Auswahl eines Zeitintervalls, z.B. wenn Statistik über Stosszeiten am Morgen oder am Abend erstellt werden sollen. Damit ein Zeitintervall definiert werden kann muss zuerst das <code>Nach Datum Filtern</code> Checkbox ausgewählt werden. Die unten aufgeführten weiteren Filter stehen nur zur Verfügung, wenn kein Datumsintervall gesetzt wurde.
+    - Auswahl Zeit: Erlaubt die Auswahl eines Zeitintervalls, z.B. wenn Statistik über Stosszeiten am Morgen oder am Abend erstellt werden sollen. Damit ein Zeitintervall definiert werden kann muss zuerst die <code>Nach Datum Filtern</code> Checkbox ausgewählt werden. Die unten aufgeführten weiteren Filter stehen nur zur Verfügung, wenn kein Datumsintervall gesetzt wurde.
     - Wochentag: Eingrenzen auf alle Messwerte, die an einem definierten Wochentag gemessen wurden
     - Werktage/Wochentage: Eingrenzen auf alle Messwerte, die an einem Wochentag oder am Wochenende gemessen wurden
     - Auswahl Woche: Eingrenzen auf alle Messwerte, die in einer definierten Kalenderwoche (1-53) gemessen wurden
@@ -126,6 +126,9 @@
     - Auswahl Jahr: Eingrenzen auf alle Messwerte, die in einem definierten Jahresintervall gemessen wurde. 
     - Auswahl Zeit: Eingrenzen auf die Tageszeit, welche im Filter berücksichtigt werden soll. </p>
 <p>Ist man an den Werten eines bestimmten Zeitintervalls interessiert, so lohnt es sich, die Filter für das Zeitintervall möglichst früh zu setzen. Während der Verarbeitung eines Befehls erscheint in der oberen rechten Ecke des Browser-Fensters ein animiertes Icon mit einer <em>Stop</em> Schaltfläche über welche der Vorgang abgebrochen werden kann, um anschliessend einen Filter zu setzen oder die richtige Zählstelle auszuwählen etc.</p>
+<p>Im Menu Grafik werden zudem kontextabhängig Grafikoptionen angezeigt:
+- Minimum und Maximum der Achsen: Mit dieser Option kann die automatisch berechneten Start- und Endwerte der Achsen gesteuert werden. Dies erweist sich als nützlich, wenn z.B. wenn über ide Grafik-Gruppierung mehrere Grafiken vom gleichen Typ erzeugt werden, und die Resultate vergleichbar sein sollen. 
+- Achsen Länge: Grafiken weitereverwendet werden sollen, so kann es nützlich sein, die Defaultwerte der Grafikgrösse zu übersteuern.</p>
               
             </div>
           </div>
@@ -136,7 +139,7 @@
         <a href="../menu/" class="btn btn-neutral float-right" title="Menu">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../home/" class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../home/" class="btn btn-neutral" title="Übersicht"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
