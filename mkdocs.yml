@@ -1,6 +1,7 @@
 site_name: MobEx 0.4.0
 nav:
-    - Übersicht: home.md
+    - Home: index.md
+    - Übersicht: summary.md
     - Einführung: main_concepts.md
     - Menu: menu.md
 theme: readthedocs

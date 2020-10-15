@@ -1,18 +1,5 @@
-# Mobility Explorer
+# Mobility Explorer v0.4.0
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Aufgrund der erhöhten individuellen Mobilität und der Zunahme des öffentlichen Verkehrs werden Planung und Lenkung der Mobilität immer wichtiger. MobEx leistet zu diesem Thema einen Beitrag und erlaubt die numerische und grafische Analyse des motorisierten und des Langsamverkehrs in Basel Stadt. Die Daten stammen von automatisierten Zählstellen, betrieben vom [Bau- Verkehrsdepartement](https://www.bvd.bs.ch/) des Kantons Basel. Sie werden von der [Fachstelle für Open Gouvernment Data (OGD)](https://data.bs.ch/pages/home/) in auswertefreundlicher Form tagesaktuell publiziert.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        home.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
-
+[](img/traffic_bs.png)
